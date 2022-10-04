@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lanars/static/css/main.2d8e5e19.css",
+    "main.js": "/lanars/static/js/main.dc60f8be.js",
+    "index.html": "/lanars/index.html",
+    "main.2d8e5e19.css.map": "/lanars/static/css/main.2d8e5e19.css.map",
+    "main.dc60f8be.js.map": "/lanars/static/js/main.dc60f8be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d8e5e19.css",
+    "static/js/main.dc60f8be.js"
+  ]
+}
