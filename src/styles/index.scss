@@ -1,0 +1,38 @@
+@import 'reset-css';
+@import '~antd/dist/antd.css';
+@import 'vars';
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: $font-size;
+  font-family: $font-main;
+  background-color: $white;
+}
+
+.container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 765px;
+  height: 100%;
+}
+
+.spin{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(2.5);
+
+  span{
+    i{
+      background-color: $black !important;
+    }
+  }
+}

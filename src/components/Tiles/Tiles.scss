@@ -1,0 +1,43 @@
+@import '../../styles/vars';
+
+.mahjong{
+  &__tile{
+    width: 80px;
+    height: 104px;
+    background: $white;
+    border: 0.5px solid $gray;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+
+    &:hover{
+      box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      visibility: hidden;
+    }
+
+    &--visible{
+      span{
+        visibility: visible;
+      }
+    }
+
+    &--active{
+      box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+      border: 0.5px solid #ED5517;
+    }
+
+    &--equal{
+      pointer-events: none;
+      border: 1px solid #0A0A0C;
+    }
+  }
+}
